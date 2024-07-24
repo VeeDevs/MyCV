@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vhuhwavho Mulaudzi's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0;
+        }
+
+        header img.profile-image {
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+            color: #4CAF50;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #e8f5e9;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-top: 10px;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+
+        form button {
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 4px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vhuhwavho Mulaudzi</h1>
+        <p><strong>Contact:</strong> +27 71 307 955 | vhuhwavho.mulaudzi@example.com</p>
+        <p><a href="https://linkedin.com/in/vhuhwavhomulaudzi" style="color: white;">LinkedIn</a></p>
+        <img src="your-image.jpg" alt="Vhuhwavho Mulaudzi" class="profile-image">
+    </header>
+
+    <section id="bio">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer with over 5 years of experience in building dynamic and responsive websites. 
+            My journey in tech started during my college years where I discovered my love for coding.
+        </p>
+        <p>
+            I have worked with various technologies and enjoy creating solutions that are both functional and aesthetically pleasing. 
+            My main areas of expertise include HTML, CSS, JavaScript, and Python.
+        </p>
+        <p>
+            I am motivated by the challenge of solving complex problems and the continuous learning that comes with being in the tech industry. 
+            My goal is to contribute to innovative projects that make a difference.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills and Competencies</h2>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript & jQuery</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Python & Django</li>
+            <li>SQL & NoSQL Databases</li>
+            <li>Responsive Web Design</li>
+            <li>Version Control (Git)</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Bachelor of Science in Information Technology</strong></p>
+        <p>Richfield Institute of Technology, 2015-2019</p>
+        <p><strong>Software Engineering</strong></p>
+        <p>HyperionDev, 2020-2021</p>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <p><strong>Web Developer at ABC Corp</strong></p>
+        <p>January 2020 - Present</p>
+        <ul>
+            <li>Developed and maintained company websites and web applications.</li>
+            <li>Collaborated with designers and backend developers to enhance user experience.</li>
+            <li>Implemented responsive design to ensure compatibility across various devices.</li>
+        </ul>
+        <p><strong>Intern at XYZ Tech</strong></p>
+        <p>June 2018 - December 2019</p>
+        <ul>
+            <li>Assisted in the development of client projects using HTML, CSS, and JavaScript.</li>
+            <li>Participated in code reviews and team meetings to improve code quality.</li>
+        </ul>
+    </section>
+
+    <section id="search">
+        <h2>Search</h2>
+        <form action="/search" method="get">
+            <label for="search-box">Search:</label>
+            <input type="search" id="search-box" name="q" placeholder="Search...">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="/contact" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
